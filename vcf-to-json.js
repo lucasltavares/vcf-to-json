@@ -1,10 +1,10 @@
 const vcardString = `BEGIN:VCARD
   VERSION:2.1
-  N:;Bruno - Yup Chat;;;
-  FN:Bruno - Yup Chat
-  TEL;CELL:+5511930874443
-  TEL;CELL:+5511930874443
-  ORG:Bruno - Yup Chat
+  N:;Bruno;;;
+  FN:Bruno
+  TEL;CELL:+5511920874443
+  TEL;CELL:+5511920874443
+  ORG:Company
   END:VCARD`;
 
 const vcardToJson = (vcard) => {
